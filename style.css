@@ -34,12 +34,13 @@ header {
 }
 .logo img {
   width: 170px;
+  filter: grayscale(100%);
 }
 .signin {
   float: right;
 }
 .signin button {
-  background-color: crimson;
+  background-color: yellowgreen;
   border: none;
   color: #fff;
   padding: 7px 15px;
@@ -113,7 +114,7 @@ section {
 }
 .getstarted button {
   width: 220px;
-  background-color: crimson;
+  background-color: yellowgreen;
   color: #fff;
   font-size: 26px;
   cursor: pointer;
@@ -246,7 +247,7 @@ footer {
   top: 0;
   left: 0;
   z-index: 100;
-  display: none;
+  /* display: none; */
 }
 .login {
   width: 450px;
@@ -279,7 +280,7 @@ footer {
 }
 .login input[type=button] {
   font-size: 20px;
-  background-color: crimson;
+  background-color: yellowgreen;
   color: #fff;
   border: none;
   outline: none;
@@ -311,5 +312,5 @@ footer {
   cursor: pointer;
 }
 .btn-close:hover {
-  color: crimson;
+  color: yellowgreen;
 }
